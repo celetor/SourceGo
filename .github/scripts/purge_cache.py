@@ -8,9 +8,9 @@ def get_file_list(folder_dir: str):
     for d in dir_list:
         sub_dir = os.path.join(folder_dir, d)
         if os.path.isfile(sub_dir):
-            file_list.append(d)
+            file_list.append(f'book_source/{d}')
         else:
-            folder_list.append(f'book_source/{d}')
+            folder_list.append(d)
     for d in folder_list:
         sub_dir = os.path.join(folder_dir, d)
         f_list = os.listdir(sub_dir)
