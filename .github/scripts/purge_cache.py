@@ -28,7 +28,7 @@ if __name__ == '__main__':
     if os.path.exists(source_path):
         for file in get_file_list(source_path):
             #print(file)
-            url = f'https://cdn.jsdelivr.net/gh/Celeter/SourceGo@main/book_source/{file}'
+            url = f'https://cdn.jsdelivr.net/gh/Celeter/SourceGo@main/{file}'
             print(url)
             #res = requests.get(url).text
             url = f'https://purge.jsdelivr.net/gh/Celeter/SourceGo@main/{file}'
