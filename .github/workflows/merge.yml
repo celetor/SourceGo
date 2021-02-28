@@ -18,12 +18,7 @@ jobs:
 
       - name: Run Merge Script
         run: python3 ./.github/scripts/src_merge.py
-    
-      - name: Run Purge Cache Script
-        run: |
-          pip3 install requests
-          python3 ./.github/scripts/purge_cache.py
-
+        
       - name: Push
         run: |
           git config user.email "github-actions@github.com"
@@ -31,4 +26,9 @@ jobs:
           git add .
           git commit --allow-empty -m "update"
           git push origin main
+ 
+      - name: Run Purge Cache Script
+        run: |
+          pip3 install requests
+          python3 ./.github/scripts/purge_cache.py
  
