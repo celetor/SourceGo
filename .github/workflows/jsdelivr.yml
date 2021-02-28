@@ -1,0 +1,20 @@
+name: Clear Cache
+on: 
+  workflow_dispatch:
+  schedule:
+    - cron: '35 20 * * *'
+  
+jobs:
+  Clear_Cache:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: Run Purge Cache Script
+        run: |
+          pip3 install requests
+          python3 ./.github/scripts/purge_cache.py
+
+ 
