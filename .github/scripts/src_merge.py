@@ -99,7 +99,7 @@ def update_readme(dir):
     with open(os.path.join(dir, '..', 'README.md'), 'w', encoding='utf-8') as f:
         f.write(log)
 
-    html = f'''document.querySelector('#write').innerHTML=`<center><h1>
+    html = f'''let ctx=`<center><h1>
         <a name="阅读app-精品书源" class="md-header-anchor" id="阅读app-精品书源"></a>
         <strong><span>「阅读」APP 精品书源</span></strong> <span></span>
     </h1></center>
@@ -152,6 +152,13 @@ def update_readme(dir):
 <li><span>防止失联，可将本贴加入收藏或书签，更新书源快人一步！</span></li>
 <li><span>本站所有内容仅供书友交流学习，勿做商用。</span></li>
 </ul>`;
+if(window.location.hostname.indexOf('github')>-1){
+        console.log('github');
+        document.querySelector('#write').innerHTML=ctx.replace(/https:\/\/cdn\.jsdelivr\.net\/gh\/Celeter\/SourceGo@main\//g,'https://celeter.github.io/SourceGo/');
+}else{
+        console.log('gitee');
+        document.querySelector('#write').innerHTML=ctx;
+}
 '''
 
     with open(os.path.join(dir, '..', 'index.js'), 'w', encoding='utf-8') as f:
