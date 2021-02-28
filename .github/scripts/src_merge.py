@@ -99,20 +99,7 @@ def update_readme(dir):
     with open(os.path.join(dir, '..', 'README.md'), 'w', encoding='utf-8') as f:
         f.write(log)
 
-    html = f'''
-<!DOCTYPE html>
-<html>
-<head>
-  <meta charset='UTF-8' />
-  <meta name='viewport' content='width=device-width initial-scale=1' />
-  <link rel="icon" href="https://cdn.jsdelivr.net/gh/Celeter/SourceGo@main/icon.jpg" />
-  <title>精品源</title>
-  <!--<link href='https://fonts.loli.net/css?family=Open+Sans:400italic,700italic,700,400&subset=latin,latin-ext' rel='stylesheet' type='text/css' />-->
-  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/Celeter/SourceGo@main/index.css" />
-</head>
-<body class='typora-export os-windows'>
-  <div id='write' class=''>
-    <center><h1>
+    html = f'''document.querySelector('#write').innerHTML=`<center><h1>
         <a name="阅读app-精品书源" class="md-header-anchor" id="阅读app-精品书源"></a>
         <strong><span>「阅读」APP 精品书源</span></strong> <span></span>
     </h1></center>
@@ -164,12 +151,10 @@ def update_readme(dir):
 <ul>
 <li><span>防止失联，可将本贴加入收藏或书签，更新书源快人一步！</span></li>
 <li><span>本站所有内容仅供书友交流学习，勿做商用。</span></li>
-</ul></div>
-</body>
-</html>
+</ul>`;
 '''
 
-    with open(os.path.join(dir, '..', 'index.html'), 'w', encoding='utf-8') as f:
+    with open(os.path.join(dir, '..', 'index.js'), 'w', encoding='utf-8') as f:
         f.write(html)
 
 
