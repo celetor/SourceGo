@@ -1,4 +1,6 @@
-document.querySelector('#write').innerHTML=`<center><h1>
+let host=window.location.hostname;
+document.querySelector('#write').innerHTML=host;
+document.querySelector('#write').innerHTML+=`<center><h1>
         <a name="阅读app-精品书源" class="md-header-anchor" id="阅读app-精品书源"></a>
         <strong><span>「阅读」APP 精品书源</span></strong> <span></span>
     </h1></center>
