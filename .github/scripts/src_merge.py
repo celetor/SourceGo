@@ -108,7 +108,7 @@ def update_readme(dir):
   <link rel="icon" href="https://gitee.com/alanskycn/yuedu/raw/master/JS/icon.jpg" />
   <title>精品源</title>
   <!--<link href='https://fonts.loli.net/css?family=Open+Sans:400italic,700italic,700,400&subset=latin,latin-ext' rel='stylesheet' type='text/css' />-->
-  <link rel="stylesheet" type="text/css" href="index.css" />
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/Celeter/SourceGo@main/index.css" />
 </head>
 <body class='typora-export os-windows'>
   <div id='write' class=''>
