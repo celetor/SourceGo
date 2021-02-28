@@ -17,9 +17,11 @@ jobs:
           fetch-depth: 0
 
       - name: Run Merge Script
+        run: python3 ./.github/scripts/src_merge.py
+    
+      - name: Run Purge Cache Script
         run: |
           pip3 install requests
-          python3 ./.github/scripts/src_merge.py
           python3 ./.github/scripts/purge_cache.py
 
       - name: Push
