@@ -1564,7 +1564,7 @@ let ctx=`<center><h1>
 </ul>`;
 
 if(window.location.hostname.indexOf('github')>-1){
-        document.querySelector('#write').innerHTML=ctx.replace('https://cdn.jsdelivr.net/gh/Celeter/SourceGo@main/','https://celeter.github.io/SourceGo/');
+        document.querySelector('#write').innerHTML='@@@'+ctx.replace(/https:\/\/cdn\.jsdelivr\.net\/gh\/Celeter\/SourceGo@main\//g,'https://celeter.github.io/SourceGo/');
 }else{
         document.querySelector('#write').innerHTML=ctx;
 }         
