@@ -38,7 +38,7 @@ def update_readme(dir):
     <td><a href="{src['bookSourceUrl']}" rel="nofollow" target="_blank">{src["bookSourceUrl"]}</a></td>
     <td>{time_format(src["lastUpdateTime"])}</td>
     <td>{src["bookSourceGroup"]}</td>
-    <td><a href='yuedu://booksource/importonline?src=https://celeter.github.io/SourceGo/book_source/{src["bookSourceGroup"]}/{src["bookSourceName"]}.json' rel="nofollow">点击</a></td>
+    <td><a href='yuedu://booksource/importonline?src=https://cdn.jsdelivr.net/gh/Celeter/SourceGo@main/book_source/{src["bookSourceGroup"]}/{src["bookSourceName"]}.json' rel="nofollow">点击</a></td>
 </tr>'''
                            )
         index += 1
