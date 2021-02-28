@@ -17,7 +17,10 @@ jobs:
           fetch-depth: 0
 
       - name: Run Merge Script
-        run: python3 ./.github/scripts/src_merge.py
+        run: |
+          pip3 install requests
+          python3 ./.github/scripts/src_merge.py
+          python3 ./.github/scripts/purge_cache.py
 
       - name: Push
         run: |
@@ -26,3 +29,4 @@ jobs:
           git add .
           git commit --allow-empty -m "update"
           git push origin main
+ 
