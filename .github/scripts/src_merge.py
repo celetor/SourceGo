@@ -153,7 +153,6 @@ def update_readme(dir):
 <li><span>本站所有内容仅供书友交流学习，勿做商用。</span></li>
 </ul>`;
 if(window.location.hostname.indexOf('github')>-1){
-  console.log('github');
   document.querySelector('#write').innerHTML=ctx.replace(/https:\/\/cdn\.jsdelivr\.net\/gh\/Celeter\/SourceGo@main\//g,'https://celeter.github.io/SourceGo/');
 }else{
   console.log('gitee');
