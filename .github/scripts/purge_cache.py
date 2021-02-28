@@ -3,7 +3,7 @@ import os, requests
 
 def get_file_list(folder_dir: str):
     dir_list = os.listdir(folder_dir)
-    file_list = []
+    file_list = ['index.js']
     folder_list = []
     for d in dir_list:
         sub_dir = os.path.join(folder_dir, d)
@@ -30,8 +30,8 @@ if __name__ == '__main__':
             print(file)
             #url = f'https://cdn.jsdelivr.net/gh/Celeter/SourceGo@main/book_source/{file}'
             #res = requests.get(url).text
-            url = f'https://purge.jsdelivr.net/gh/Celeter/SourceGo@main/{file}'
-            res = requests.get(url).text
-            print(res)
+            #url = f'https://purge.jsdelivr.net/gh/Celeter/SourceGo@main/{file}'
+            #res = requests.get(url).text
+            #print(res)
             
   
