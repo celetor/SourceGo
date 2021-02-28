@@ -105,7 +105,7 @@ def update_readme(dir):
 <head>
   <meta charset='UTF-8' />
   <meta name='viewport' content='width=device-width initial-scale=1' />
-  <link rel="icon" href="https://gitee.com/alanskycn/yuedu/raw/master/JS/icon.jpg" />
+  <link rel="icon" href="https://cdn.jsdelivr.net/gh/Celeter/SourceGo@main/icon.jpg" />
   <title>精品源</title>
   <!--<link href='https://fonts.loli.net/css?family=Open+Sans:400italic,700italic,700,400&subset=latin,latin-ext' rel='stylesheet' type='text/css' />-->
   <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/Celeter/SourceGo@main/index.css" />
