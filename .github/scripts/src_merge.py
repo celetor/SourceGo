@@ -107,7 +107,7 @@ def update_readme(dir):
     <ul>
       <li><span>书源：</span><code>{len(src_list)}个书源</code></li>
       <li><span>复制下面链接，在阅读里<code>网络导入</code>或直接点击自动导入</span></li>
-      <li><a href='yuedu://booksource/importonline?src=https://celeter.github.io/SourceGo/book_source/all.json'>https://celeter.github.io/SourceGo/book_source/all.json</a></li>
+      <li><a href='yuedu://booksource/importonline?src=https://cdn.jsdelivr.net/gh/Celeter/SourceGo@main/book_source/all.json'>https://celeter.github.io/SourceGo/book_source/all.json</a></li>
       <li><span>更新日期：{time_format(get_timestamp())}</span></li>
     </ul>
     <h2><a name="导入方案" class="md-header-anchor" id="导入方案"></a><span>导入方案</span></h2>
