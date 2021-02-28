@@ -7,7 +7,7 @@ let ctx=`<center><h1>
       <li><span>书源：</span><code>189个书源</code></li>
       <li><span>复制下面链接，在阅读里<code>网络导入</code>或直接点击自动导入</span></li>
       <li><a href='yuedu://booksource/importonline?src=https://cdn.jsdelivr.net/gh/Celeter/SourceGo@main/book_source/all.json'>https://celeter.github.io/SourceGo/book_source/all.json</a></li>
-      <li><span>更新日期：2021-02-28 13:08:36</span></li>
+      <li><span>更新日期：2021-02-28 14:06:36</span></li>
     </ul>
     <h2><a name="导入方案" class="md-header-anchor" id="导入方案"></a><span>导入方案</span></h2>
     <h3><a name="方案一" class="md-header-anchor" id="方案一"></a><span>方案一</span></h3>
@@ -1561,12 +1561,4 @@ let ctx=`<center><h1>
 <ul>
 <li><span>防止失联，可将本贴加入收藏或书签，更新书源快人一步！</span></li>
 <li><span>本站所有内容仅供书友交流学习，勿做商用。</span></li>
-</ul>`;
-
-if(window.location.hostname.indexOf('github')>-1){
-        document.querySelector('#write').innerHTML='@@@'+ctx.replace(/https:\/\/cdn\.jsdelivr\.net\/gh\/Celeter\/SourceGo@main\//g,'https://celeter.github.io/SourceGo/');
-}else{
-        document.querySelector('#write').innerHTML=window.location.hostname;
-}         
-                
-                
+</ul>`;document.querySelector('#write').innerHTML=window.location.hostname.indexOf('github')>-1?ctx.replace(/https:\/\/cdn\.jsdelivr\.net\/gh\/Celeter\/SourceGo@main\//g,'https://celeter.github.io/SourceGo/'):ctx;
