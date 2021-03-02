@@ -34,11 +34,11 @@ def update_readme(dir):
             f'| {index} | {src["bookSourceName"]} | {src["bookSourceUrl"]}	| {time_format(src["lastUpdateTime"])} | {src["bookSourceGroup"]} | <a href="https://celeter.github.io/SourceGo/book_source/{src["bookSourceGroup"]}/{src["bookSourceName"]}.json">点击</a>')
         text_list_2.append(f'''<tr>
     <td>{index}</td>
-    <td><a href='https://celeter.github.io/SourceGo/book_source/{src["bookSourceGroup"]}/{src["bookSourceName"]}.json' rel="nofollow" target="_blank">{src["bookSourceName"]}</a></td>
+    <td><a href="https://celeter.github.io/SourceGo/book_source/{src['bookSourceGroup']}/{src['bookSourceName']}.json" rel="nofollow" target="_blank">{src["bookSourceName"]}</a></td>
     <td><a href="{src['bookSourceUrl']}" rel="nofollow" target="_blank">{src["bookSourceUrl"]}</a></td>
     <td>{time_format(src["lastUpdateTime"])}</td>
     <td>{src["bookSourceGroup"]}</td>
-    <td><a href='yuedu://booksource/importonline?src=https://cdn.jsdelivr.net/gh/Celeter/SourceGo@main/book_source/{src["bookSourceGroup"]}/{src["bookSourceName"]}.json' rel="nofollow">点击</a></td>
+    <td><a href="yuedu://booksource/importonline?src=https://cdn.jsdelivr.net/gh/Celeter/SourceGo@main/book_source/{src['bookSourceGroup']}/{src['bookSourceName']}.json" rel="nofollow">点击</a></td>
 </tr>'''
                            )
         index += 1
@@ -107,7 +107,7 @@ def update_readme(dir):
     <ul>
       <li><span>书源：</span><code>{len(src_list)}个书源</code></li>
       <li><span>复制下面链接，在阅读里<code>网络导入</code>或直接点击自动导入</span></li>
-      <li><a href='yuedu://booksource/importonline?src=https://cdn.jsdelivr.net/gh/Celeter/SourceGo@main/book_source/all.json'>https://celeter.github.io/SourceGo/book_source/all.json</a></li>
+      <li><a href="yuedu://booksource/importonline?src=https://cdn.jsdelivr.net/gh/Celeter/SourceGo@main/book_source/all.json">https://celeter.github.io/SourceGo/book_source/all.json</a></li>
       <li><span>更新日期：{time_format(get_timestamp())}</span></li>
     </ul>
     <h2><a name="导入方案" class="md-header-anchor" id="导入方案"></a><span>导入方案</span></h2>
@@ -151,7 +151,7 @@ def update_readme(dir):
 <ul>
 <li><span>防止失联，可将本贴加入收藏或书签，更新书源快人一步！</span></li>
 <li><span>本站所有内容仅供书友交流学习，勿做商用。</span></li>
-</ul>`;document.querySelector('#write').innerHTML=window.location.hostname.indexOf('github')>-1?ctx.replace(/https:\/\/cdn\.jsdelivr\.net\/gh\/Celeter\/SourceGo@main\//g,'https://celeter.github.io/SourceGo/'):ctx;
+</ul>`;document.querySelector("#write").innerHTML=window.location.hostname.indexOf("github")>-1?ctx.replace(/https:\/\/cdn\.jsdelivr\.net\/gh\/Celeter\/SourceGo@main\//g,"https://celeter.github.io/SourceGo/"):ctx;
 '''
 
     with open(os.path.join(dir, '..', 'index.js'), 'w', encoding='utf-8') as f:
