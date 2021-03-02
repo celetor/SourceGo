@@ -32,15 +32,7 @@ def update_readme(dir):
     for src in src_list:
         text_list_1.append(
             f'| {index} | {src["bookSourceName"]} | {src["bookSourceUrl"]}	| {time_format(src["lastUpdateTime"])} | {src["bookSourceGroup"]} | <a href="https://celeter.github.io/SourceGo/book_source/{src["bookSourceGroup"]}/{src["bookSourceName"]}.json">点击</a>')
-        text_list_2.append(f'''<tr>
-    <td>{index}</td>
-    <td><a href="https://celeter.github.io/SourceGo/book_source/{src['bookSourceGroup']}/{src['bookSourceName']}.json" rel="nofollow" target="_blank">{src["bookSourceName"]}</a></td>
-    <td><a href="{src['bookSourceUrl']}" rel="nofollow" target="_blank">{src["bookSourceUrl"]}</a></td>
-    <td>{time_format(src["lastUpdateTime"])}</td>
-    <td>{src["bookSourceGroup"]}</td>
-    <td><a href="yuedu://booksource/importonline?src=https://cdn.jsdelivr.net/gh/Celeter/SourceGo@main/book_source/{src['bookSourceGroup']}/{src['bookSourceName']}.json" rel="nofollow">点击</a></td>
-</tr>'''
-                           )
+        text_list_2.append(f'''<tr><td>{index}</td><td><a href="https://celeter.github.io/SourceGo/book_source/{src['bookSourceGroup']}/{src['bookSourceName']}.json" rel="nofollow" target="_blank">{src["bookSourceName"]}</a></td><td><a href="{src['bookSourceUrl']}" rel="nofollow" target="_blank">{src["bookSourceUrl"]}</a></td><td>{time_format(src["lastUpdateTime"])}</td><td>{src["bookSourceGroup"]}</td><td><a href="yuedu://booksource/importonline?src=https://cdn.jsdelivr.net/gh/Celeter/SourceGo@main/book_source/{src['bookSourceGroup']}/{src['bookSourceName']}.json" rel="nofollow">点击</a></td></tr>''')
         index += 1
     text_1 = '\n'.join(text_list_1)
     text_2 = ''.join(text_list_2)
