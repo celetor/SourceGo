@@ -43,7 +43,7 @@ def update_readme(dir):
                            )
         index += 1
     text_1 = '\n'.join(text_list_1)
-    text_2 = '\n'.join(text_list_2)
+    text_2 = ''.join(text_list_2)
 
     log = f'''
 # **「阅读」APP 精品书源** 
