@@ -1,42 +1,4 @@
-let ctx=`<center><h1>
-        <a name="阅读app-精品书源" class="md-header-anchor" id="阅读app-精品书源"></a>
-        <strong><span>「阅读」APP 精品书源</span></strong> <span></span>
-    </h1></center>
-    <h2><a name="30-书源链接" class="md-header-anchor" id="30-书源链接"></a><span>3.0 书源链接</span></h2>
-    <ul>
-      <li><span>书源：</span><code>189个书源</code></li>
-      <li><span>复制下面链接，在阅读里<code>网络导入</code>或直接点击自动导入</span></li>
-      <li><a href="yuedu://booksource/importonline?src=https://cdn.jsdelivr.net/gh/Celeter/SourceGo@main/book_source/all.json">https://celeter.github.io/SourceGo/book_source/all.json</a></li>
-      <li><span>更新日期：2021-03-02 14:36:17</span></li>
-    </ul>
-    <h2><a name="导入方案" class="md-header-anchor" id="导入方案"></a><span>导入方案</span></h2>
-    <h3><a name="方案一" class="md-header-anchor" id="方案一"></a><span>方案一</span></h3>
-    <ul>
-      <li><span>先点击左下角把阅读内所有书源全选，再点击右下角的删除，最后复制本站书源链接，在网络导入里面导入！(推荐此方法，省时又省力！)。</span></li>
-    </ul>
-    <h3><a name="方案二" class="md-header-anchor" id="方案二"></a><span>方案二</span></h3>
-    <ul>
-      <li><span>点击左下角全选，再点击右下角那三个点选择校验所选，将校验失效的删除，通过网络导入导入本站书源进行覆盖！)</span></li>
-    </ul>
-    <h2><a name="导入教程" class="md-header-anchor" id="导入教程"></a><span>导入教程</span></h2>
-    <blockquote>
-      <p><span>1.复制“书源链接”，打开阅读，点击右下角“我的”，然后选择“书源管理”，点击右上角三个点，选择“网络导入”，粘贴链接，确定即可。</span></p>
-      <p><span>2.直接点击自动导入</span></p>
-    </blockquote>
-    <h2><a name="书源列表" class="md-header-anchor" id="书源列表"></a><span>书源列表</span></h2>
-<table>
-<thead>
-<tr>
-<th>序号</th>
-<th>书源名称</th>
-<th>书源地址</th>
-<th>更新时间</th>
-<th>书源分组</th>
-<th>导入</th>
-</tr>
-</thead>
-<tbody>
-<tr>
+var ctx='<center><h1><a name="阅读app-精品书源" class="md-header-anchor" id="阅读app-精品书源"></a><strong><span>「阅读」APP 精品书源</span></strong> <span></span></h1></center><h2><a name="30-书源链接" class="md-header-anchor" id="30-书源链接"></a><span>3.0 书源链接</span></h2><ul><li><span>书源：</span><code>189个书源</code></li><li><span>复制下面链接，在阅读里<code>网络导入</code>或直接点击自动导入</span></li><li><a href="yuedu://booksource/importonline?src=https://cdn.jsdelivr.net/gh/Celeter/SourceGo@main/book_source/all.json">https://celeter.github.io/SourceGo/book_source/all.json</a></li><li><span>更新日期：2021-03-02 14:51:07</span></li></ul><h2><a name="导入方案" class="md-header-anchor" id="导入方案"></a><span>导入方案</span></h2><h3><a name="方案一" class="md-header-anchor" id="方案一"></a><span>方案一</span></h3><ul><li><span>先点击左下角把阅读内所有书源全选，再点击右下角的删除，最后复制本站书源链接，在网络导入里面导入！(推荐此方法，省时又省力！)。</span></li></ul><h3><a name="方案二" class="md-header-anchor" id="方案二"></a><span>方案二</span></h3><ul><li><span>点击左下角全选，再点击右下角那三个点选择校验所选，将校验失效的删除，通过网络导入导入本站书源进行覆盖！)</span></li></ul><h2><a name="导入教程" class="md-header-anchor" id="导入教程"></a><span>导入教程</span></h2><blockquote><p><span>1.复制“书源链接”，打开阅读，点击右下角“我的”，然后选择“书源管理”，点击右上角三个点，选择“网络导入”，粘贴链接，确定即可。</span></p><p><span>2.直接点击自动导入</span></p></blockquote><h2><a name="书源列表" class="md-header-anchor" id="书源列表"></a><span>书源列表</span></h2><table><thead><tr><th>序号</th><th>书源名称</th><th>书源地址</th><th>更新时间</th><th>书源分组</th><th>导入</th></tr></thead><tbody><tr>
     <td>1</td>
     <td><a href="https://celeter.github.io/SourceGo/book_source/🎉精选/🎉笔趣谷.json" rel="nofollow" target="_blank">🎉笔趣谷</a></td>
     <td><a href="http://biqugu.net" rel="nofollow" target="_blank">http://biqugu.net</a></td>
@@ -1547,18 +1509,4 @@ let ctx=`<center><h1>
     <td>2021-01-24 15:13:04</td>
     <td>🥈补充</td>
     <td><a href="yuedu://booksource/importonline?src=https://cdn.jsdelivr.net/gh/Celeter/SourceGo@main/book_source/🥈补充/🥈云轩阁.json" rel="nofollow">点击</a></td>
-</tr>
-</tbody>
-</table>
-<hr />
-<h2><span>请选择扶贫方式</span></h2>
-<table><tr>
-    <td><img src="https://cdn.jsdelivr.net/gh/Celeter/SourceGo/.github/scripts/alipay.jpg" width="300px"></td>
-    <td><img src="https://cdn.jsdelivr.net/gh/Celeter/SourceGo/.github/scripts/wechatpay.png" width="300px"></td>
-    <td><img src="https://cdn.jsdelivr.net/gh/Celeter/SourceGo/.github/scripts/qqpay.png" width="300px"></td>
-</tr></table>
-<h2><span>温馨提示</span></h2>
-<ul>
-<li><span>防止失联，可将本贴加入收藏或书签，更新书源快人一步！</span></li>
-<li><span>本站所有内容仅供书友交流学习，勿做商用。</span></li>
-</ul>`;document.querySelector("#write").innerHTML=window.location.hostname.indexOf("github")>-1?ctx.replace(/https:\/\/cdn\.jsdelivr\.net\/gh\/Celeter\/SourceGo@main\//g,"https://celeter.github.io/SourceGo/"):ctx;
+</tr></tbody></table><hr /><h2><span>请选择扶贫方式</span></h2><table><tr><td><img src="https://cdn.jsdelivr.net/gh/Celeter/SourceGo/.github/scripts/alipay.jpg" width="300px"></td><td><img src="https://cdn.jsdelivr.net/gh/Celeter/SourceGo/.github/scripts/wechatpay.png" width="300px"></td><td><img src="https://cdn.jsdelivr.net/gh/Celeter/SourceGo/.github/scripts/qqpay.png" width="300px"></td></tr></table><h2><span>温馨提示</span></h2><ul><li><span>防止失联，可将本贴加入收藏或书签，更新书源快人一步！</span></li><li><span>本站所有内容仅供书友交流学习，勿做商用。</span></li></ul>';document.querySelector("#write").innerHTML=window.location.hostname.indexOf("github")>-1?ctx.replace(/https:\/\/cdn\.jsdelivr\.net\/gh\/Celeter\/SourceGo@main\//g,"https://celeter.github.io/SourceGo/"):ctx;
