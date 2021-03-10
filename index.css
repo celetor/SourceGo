@@ -543,7 +543,8 @@ header, .context-menu, .megamenu-content, footer{
     min - height: 80px;
     max - width: 244px;
     display: block;
-}.logo_gif img {
+}
+.logo_gif img {
     margin - right: auto;
     display: block;
     height: 100 % ;
