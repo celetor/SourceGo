@@ -1,8 +1,8 @@
 name: Clear Cache
 on: 
   workflow_dispatch:
-  schedule:
-    - cron: '55 20 * * *'
+#   schedule:
+#     - cron: '55 20 * * *'
   
 jobs:
   Clear_Cache:
