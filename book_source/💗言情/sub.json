@@ -2,6 +2,44 @@
   {
     "bookSourceComment": "https://celeter.github.io/SourceGo",
     "bookSourceGroup": "💗言情",
+    "bookSourceName": "💗都市言情",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.dsyq.org",
+    "bookUrlPattern": "",
+    "customOrder": 143,
+    "enabled": true,
+    "enabledExplore": true,
+    "lastUpdateTime": 1611752709940,
+    "ruleBookInfo": {
+      "author": "class.book-title@tag.em.0@text##作\\s*者：",
+      "coverUrl": "class.book-img@tag.img.0@src",
+      "intro": "class.book-intro@text",
+      "name": "class.book-title@tag.h1.0@text",
+      "tocUrl": "text.全文阅读@href"
+    },
+    "ruleContent": {
+      "content": "id.BookText@html"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "tag.td.2@text||tag.em.1@text",
+      "bookList": "class.grid searall@tag.tr!0",
+      "bookUrl": "class.odd@tag.a@href",
+      "kind": "class.fl@tag.a.1@text",
+      "lastChapter": "class.even@tag.a@text",
+      "name": "class.odd.0@tag.a@text||tag.h1.0@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.chapterlist@tag.dd",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "http://www.dsyq.org/modules/article/search.php?searchkey={{key}}",
+    "weight": 0
+  },
+  {
+    "bookSourceComment": "https://celeter.github.io/SourceGo",
+    "bookSourceGroup": "💗言情",
     "bookSourceName": "💗雨后中文",
     "bookSourceType": 0,
     "bookSourceUrl": "https://www.yuhouzw.com",
@@ -52,39 +90,39 @@
   {
     "bookSourceComment": "https://celeter.github.io/SourceGo",
     "bookSourceGroup": "💗言情",
-    "bookSourceName": "💗都市言情",
+    "bookSourceName": "💗花香居",
     "bookSourceType": 0,
-    "bookSourceUrl": "http://www.dsyq.org",
+    "bookSourceUrl": "https://www.huaxiangju.com",
     "bookUrlPattern": "",
-    "customOrder": 143,
+    "customOrder": 142,
     "enabled": true,
     "enabledExplore": true,
-    "lastUpdateTime": 1611752709940,
+    "lastUpdateTime": 1611752684189,
     "ruleBookInfo": {
-      "author": "class.book-title@tag.em.0@text##作\\s*者：",
-      "coverUrl": "class.book-img@tag.img.0@src",
-      "intro": "class.book-intro@text",
-      "name": "class.book-title@tag.h1.0@text",
-      "tocUrl": "text.全文阅读@href"
+      "author": "class.bookPhr@tag.dd.0@text##作者：",
+      "coverUrl": "class.bookImg@tag.img.0@src",
+      "intro": "class.introCon@tag.p.0@text",
+      "name": "class.bookPhr@tag.h2.0@text"
     },
     "ruleContent": {
-      "content": "id.BookText@html"
+      "content": "class.articleCon@tag.p.0@textNodes##花香居.*|一秒记住.*"
     },
     "ruleExplore": {},
     "ruleSearch": {
-      "author": "tag.td.2@text||tag.em.1@text",
-      "bookList": "class.grid searall@tag.tr!0",
-      "bookUrl": "class.odd@tag.a@href",
-      "kind": "class.fl@tag.a.1@text",
-      "lastChapter": "class.even@tag.a@text",
-      "name": "class.odd.0@tag.a@text||tag.h1.0@text"
+      "author": "class.odd.1@text||class.bookPhr@tag.dd.0@text",
+      "bookList": "class.grid@tag.tr!0||class.detailTop",
+      "bookUrl": "class.odd.0@tag.a.0@href",
+      "coverUrl": "class.bookImg@tag.img.0@src",
+      "kind": "class.bookPhr@tag.dd.1@text##类型：|\\[|\\]",
+      "lastChapter": "class.even.0@tag.a.0@text||class.renew@tag.a@text",
+      "name": "class.odd.0@text||class.bookPhr@tag.h2.0@text"
     },
     "ruleToc": {
-      "chapterList": "class.chapterlist@tag.dd",
-      "chapterName": "tag.a@text",
-      "chapterUrl": "tag.a@href"
+      "chapterList": "-class.chapterCon@tag.li",
+      "chapterName": "tag.a.0@text",
+      "chapterUrl": "tag.a.0@href"
     },
-    "searchUrl": "http://www.dsyq.org/modules/article/search.php?searchkey={{key}}",
+    "searchUrl": "http://www.huaxiangju.com/modules/article/search.php?searchkey={{key}}&searchtype=articlename&page={{page}},{\n  \"charset\": \"gbk\"\n}",
     "weight": 0
   },
   {
@@ -134,39 +172,41 @@
   {
     "bookSourceComment": "https://celeter.github.io/SourceGo",
     "bookSourceGroup": "💗言情",
-    "bookSourceName": "💗花香居",
+    "bookSourceName": "💗言情站",
     "bookSourceType": 0,
-    "bookSourceUrl": "https://www.huaxiangju.com",
+    "bookSourceUrl": "https://www.yanqingzhan.net",
     "bookUrlPattern": "",
-    "customOrder": 142,
+    "customOrder": 144,
     "enabled": true,
     "enabledExplore": true,
-    "lastUpdateTime": 1611752684189,
+    "exploreUrl": "宫廷贵族::/sort2/{{page}}.html\n女生武侠::/sort3/{{page}}.html\n历史传奇::/sort4/{{page}}.html\n职场丽人::/sort5/{{page}}.html\n青春校园::/sort6/{{page}}.html\n婚恋爱情::/sort7/{{page}}.html\n女生网游::/sort9/{{page}}.html\n恩怨情仇::/sort10/{{page}}.html\n前世今生::/sort12/{{page}}.html\n穿越时空::/sort13/{{page}}.html\n灵异悬疑::/sort14/{{page}}.html\n玄幻仙侠::/sort15/{{page}}.html\n魔法奇幻::/sort16/{{page}}.html\n耽美言情::/sort17/{{page}}.html\n百合之恋::/sort18/{{page}}.html\n女生同人::/sort19/{{page}}.html\n其他类型::/sort20/{{page}}.html",
+    "lastUpdateTime": 1612777312858,
     "ruleBookInfo": {
-      "author": "class.bookPhr@tag.dd.0@text##作者：",
-      "coverUrl": "class.bookImg@tag.img.0@src",
-      "intro": "class.introCon@tag.p.0@text",
-      "name": "class.bookPhr@tag.h2.0@text"
+      "author": "id.htmlzuozhe@text",
+      "coverUrl": "class.img@tag.img@src",
+      "intro": "class.shorttext@text||id.htmljiashao@text",
+      "lastChapter": "id.htmldiyizh@text##>>",
+      "name": "tag.h1.0@tag.a@text",
+      "tocUrl": "class.readbtn@tag.a.0@href"
     },
     "ruleContent": {
-      "content": "class.articleCon@tag.p.0@textNodes##花香居.*|一秒记住.*"
+      "content": "class.l2l2@textNodes"
     },
     "ruleExplore": {},
     "ruleSearch": {
-      "author": "class.odd.1@text||class.bookPhr@tag.dd.0@text",
-      "bookList": "class.grid@tag.tr!0||class.detailTop",
-      "bookUrl": "class.odd.0@tag.a.0@href",
-      "coverUrl": "class.bookImg@tag.img.0@src",
-      "kind": "class.bookPhr@tag.dd.1@text##类型：|\\[|\\]",
-      "lastChapter": "class.even.0@tag.a.0@text||class.renew@tag.a@text",
-      "name": "class.odd.0@text||class.bookPhr@tag.h2.0@text"
+      "author": "class.auleft@tag.a.0@text",
+      "bookList": "id.BookList@tag.tr",
+      "bookUrl": "class.bookname@tag.a@href",
+      "coverUrl": "class.imgk@tag.a@tag.img@src",
+      "lastChapter": "class.last@tag.a@text",
+      "name": "class.bookname@tag.a@text"
     },
     "ruleToc": {
-      "chapterList": "-class.chapterCon@tag.li",
-      "chapterName": "tag.a.0@text",
-      "chapterUrl": "tag.a.0@href"
+      "chapterList": "id.htmlList@tag.li",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href"
     },
-    "searchUrl": "http://www.huaxiangju.com/modules/article/search.php?searchkey={{key}}&searchtype=articlename&page={{page}},{\n  \"charset\": \"gbk\"\n}",
+    "searchUrl": "https://www.yanqingzhan.net/modules/article/search.php?searchkey={{key}}&searchType=articlename&page={{page}},{\n  \"charset\": \"gbk\"\n}",
     "weight": 0
   },
   {
@@ -240,46 +280,6 @@
       "chapterUrl": "tag.a.0@href"
     },
     "searchUrl": "https://so.msxf.cn/book/search/?t=all&q={{key}}&page=1",
-    "weight": 0
-  },
-  {
-    "bookSourceComment": "https://celeter.github.io/SourceGo",
-    "bookSourceGroup": "💗言情",
-    "bookSourceName": "💗言情站",
-    "bookSourceType": 0,
-    "bookSourceUrl": "https://www.yanqingzhan.net",
-    "bookUrlPattern": "",
-    "customOrder": 144,
-    "enabled": true,
-    "enabledExplore": true,
-    "exploreUrl": "宫廷贵族::/sort2/{{page}}.html\n女生武侠::/sort3/{{page}}.html\n历史传奇::/sort4/{{page}}.html\n职场丽人::/sort5/{{page}}.html\n青春校园::/sort6/{{page}}.html\n婚恋爱情::/sort7/{{page}}.html\n女生网游::/sort9/{{page}}.html\n恩怨情仇::/sort10/{{page}}.html\n前世今生::/sort12/{{page}}.html\n穿越时空::/sort13/{{page}}.html\n灵异悬疑::/sort14/{{page}}.html\n玄幻仙侠::/sort15/{{page}}.html\n魔法奇幻::/sort16/{{page}}.html\n耽美言情::/sort17/{{page}}.html\n百合之恋::/sort18/{{page}}.html\n女生同人::/sort19/{{page}}.html\n其他类型::/sort20/{{page}}.html",
-    "lastUpdateTime": 1612777312858,
-    "ruleBookInfo": {
-      "author": "id.htmlzuozhe@text",
-      "coverUrl": "class.img@tag.img@src",
-      "intro": "class.shorttext@text||id.htmljiashao@text",
-      "lastChapter": "id.htmldiyizh@text##>>",
-      "name": "tag.h1.0@tag.a@text",
-      "tocUrl": "class.readbtn@tag.a.0@href"
-    },
-    "ruleContent": {
-      "content": "class.l2l2@textNodes"
-    },
-    "ruleExplore": {},
-    "ruleSearch": {
-      "author": "class.auleft@tag.a.0@text",
-      "bookList": "id.BookList@tag.tr",
-      "bookUrl": "class.bookname@tag.a@href",
-      "coverUrl": "class.imgk@tag.a@tag.img@src",
-      "lastChapter": "class.last@tag.a@text",
-      "name": "class.bookname@tag.a@text"
-    },
-    "ruleToc": {
-      "chapterList": "id.htmlList@tag.li",
-      "chapterName": "tag.a@text",
-      "chapterUrl": "tag.a@href"
-    },
-    "searchUrl": "https://www.yanqingzhan.net/modules/article/search.php?searchkey={{key}}&searchType=articlename&page={{page}},{\n  \"charset\": \"gbk\"\n}",
     "weight": 0
   }
 ]
