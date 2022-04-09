@@ -30,20 +30,9 @@ proxies:
 proxy-groups:
   - name: 🎵 网易云音乐
     type: select
-    use:
-      - NeteaseMusic
     proxies:
       - DIRECT
       - Unlock
-
-
-rule-providers:
-  NeteaseMusic:
-    type: http
-    behavior: classical
-    path: ./RuleSet/NeteaseMusic.yaml
-    url: https://cdn.staticaly.com/gh/DesperadoJ/Rules-for-UnblockNeteaseMusic/master/Clash/RuleSet/NeteaseMusic.yaml
-    interval: 86400
 
 rules:
   # Netease Music Advertising
