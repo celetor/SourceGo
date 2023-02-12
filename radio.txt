@@ -1,0 +1,8 @@
+FM88浙江之声,http://ali-m-l.cztv.com/channels/lantian/fm88/128k.m3u8
+FM95经济广播,http://ali-m-l.cztv.com/channels/lantian/fm95/128k.m3u8
+FM96.8音乐调频,http://ali-m-l.cztv.com/channels/lantian/fm968/128k.m3u8
+FM99.6民生资讯,http://ali-m-l.cztv.com/channels/lantian/fm996/128k.m3u8
+FM93交通之声,http://ali-m-l.cztv.com/channels/lantian/fm93/128k.m3u8
+FM104.5旅游之声,http://ali-m-l.cztv.com/channels/lantian/fm1045/128k.m3u8
+FM107城市之声,http://ali-m-l.cztv.com/channels/lantian/fm107/128k.m3u8
+FM98.8浙江新闻广播,http://ali-m-l.cztv.com/channels/lantian/fm988/128k.m3u8
