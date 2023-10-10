@@ -49,10 +49,6 @@ proxy-groups:
       - NeteaseMusic
     proxies:
       - DIRECT
-  - name: ‼️ 免费代理，如遇收费请举报
-    type: select
-    proxies:
-      - DIRECT
 
 rule-providers:
   NeteaseMusic:
