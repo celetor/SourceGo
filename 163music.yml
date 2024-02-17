@@ -55,7 +55,7 @@ rule-providers:
     type: http
     behavior: classical
     path: ./RuleSet/NeteaseMusic.yaml
-    url: https://gh.celeter.tk/https://raw.githubusercontent.com/DesperadoJ/Rules-for-UnblockNeteaseMusic/master/Clash/RuleSet/NeteaseMusic.yaml
+    url: https://gh.celeter.eu.org/https://raw.githubusercontent.com/DesperadoJ/Rules-for-UnblockNeteaseMusic/master/Clash/RuleSet/NeteaseMusic.yaml
     interval: 86400
 
 rules:
